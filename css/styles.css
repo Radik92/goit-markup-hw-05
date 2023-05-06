@@ -85,6 +85,7 @@ a {
 }
 
 .nav-menu-id {
+  position: relative;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -97,11 +98,29 @@ a {
   padding-bottom: 24px;
   display: block;
 }
+.nav-menu-id.active {
+  color: #404bbf;
+}
 .nav-menu-id:hover {
   color: #404bbf;
 }
 .nav-menu-id:focus {
   color: #404bbf;
+}
+
+.nav-menu-id::after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.nav-menu-id.active::after {
+  background-color: #404bbf;
 }
 
 .header-address-nav {
@@ -119,6 +138,7 @@ a {
   line-height: 24px;
   color: #434455;
 }
+
 .contact-limk-id:focus {
   color: #404bbf;
 }
