@@ -785,3 +785,40 @@ button {
 .customer-item:hover {
   border: 1px solid #404bbf;
 }
+
+/* Modal Window */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(46, 47, 66, 0.4);
+}
+.modal {
+  position: absolute;
+  top: calc(50% - 292px);
+  left: calc(50% - 204px);
+
+  width: 408px;
+  height: 584px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+.modal-close-btn {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+
+  background-color: #e7e9fc;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+  border: none;
+}
+.modal-close-icon {
+}
