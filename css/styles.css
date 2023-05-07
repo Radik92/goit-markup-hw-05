@@ -843,8 +843,10 @@ button {
 }
 .modal-close-btn {
   position: absolute;
-  top: -18px;
-  right: -18px;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
 
   display: flex;
   align-items: center;
