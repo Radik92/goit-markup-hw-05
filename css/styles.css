@@ -815,7 +815,6 @@ button {
 
 /* Modal Window */
 .backdrop {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -825,6 +824,13 @@ button {
 
   background-color: rgba(46, 47, 66, 0.4);
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .modal {
   position: absolute;
   top: calc(50% - 292px);
@@ -856,4 +862,5 @@ button {
 .modal-close-icon {
   fill: #2e2f42;
 }
+
 /*  */
