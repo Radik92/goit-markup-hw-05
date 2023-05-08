@@ -129,6 +129,7 @@ a {
   border-radius: 2px;
 
   bottom: -1px;
+  background-color: #404bbf;
 }
 
 .nav-menu-id.active::after {
