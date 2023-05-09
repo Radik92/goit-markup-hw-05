@@ -140,10 +140,6 @@ a {
   border-radius: 2px;
 
   bottom: -1px;
-}
-
-.nav-menu-id.active::after {
-  bottom: -1px;
   background-color: #404bbf;
 }
 
