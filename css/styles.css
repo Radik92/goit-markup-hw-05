@@ -143,6 +143,11 @@ a {
   background-color: #404bbf;
 }
 
+.nav-menu-id.active::after {
+  bottom: -1px;
+  background-color: #404bbf;
+}
+
 .header-address-nav {
   font-style: normal;
   gap: 40px;
