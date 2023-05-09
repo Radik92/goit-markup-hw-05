@@ -565,7 +565,6 @@ a {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
-  transform: translateY(0%);
 }
 
 .footer-social-icon {
