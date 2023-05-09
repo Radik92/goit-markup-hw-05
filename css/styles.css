@@ -12,7 +12,21 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
   --modal-bg-btn: #e7e9fc;
-
+  --txt-color-dark-theme: #f4f4fd;
+  --primary-txt-color: #434455;
+  --secondary-txt-color: #2e2f42;
+  --white-txt-color: #ffffff;
+  --txt-color-dark-theme: #f4f4fd;
+  --logo-txt-color: #4d5ae5;
+  --active-color: #404bbf;
+  --light-bg-color: #f4f4fd;
+  --dark-bg-color: #2e2f42;
+  --card-bg-color: #ffffff;
+  --cta-color: #4d5ae5;
+  --customer-icon-color: #8e8f99;
+  --footer-active-color: #31d0aa;
+  --modal-bg-color: #fcfcfc;
+  --modal-bg-btn: #e7e9fc;
   --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -406,36 +420,30 @@ a {
 }
 
 .button-filter-control {
-  cursor: pointer;
+  padding: 12px 24px;
+
+  transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func), border-color var(--transition-dur-and-func),
+    box-shadow var(--transition-dur-and-func);
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.04em;
-  background-color: #f4f4fd;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--cta-color);
+  background-color: var(--light-bg-color);
+
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  padding: 12px 24px;
-  line-height: 1.5;
-
-  transition: color 250ms var(--transition-dur-and-func), background-color 250ms var(--transition-dur-and-func), border 250ms var(--transition-dur-and-func),
-    box-shadow 250ms var(--transition-dur-and-func);
 }
 
-.button-filter-control:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+.button-filter-control:hover,
 .button-filter-control:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-txt-color);
+  background-color: var(--active-color);
   border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Project Card */
