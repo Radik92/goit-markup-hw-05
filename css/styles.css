@@ -401,7 +401,7 @@ a {
 
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 /*  */
