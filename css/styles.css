@@ -399,12 +399,9 @@ a {
   color: var(--txt-color-dark-theme);
 }
 
-.portfolio-link:hover .overlay {
-  transform: translateY(0%);
-}
-
+.portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
-  transform: translateY(0%);
+  transform: translate(0, 0);
 }
 
 /*  */
