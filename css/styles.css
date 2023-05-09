@@ -399,8 +399,8 @@ a {
   color: var(--txt-color-dark-theme);
 }
 
-.portfolio-link:hover .overlay,
-.portfolio-link:focus .overlay {
+.portfolio-link .overlay:hover,
+.portfolio-link .overlay:focus {
   transform: translate(0, 0);
   transform: translateY(0%);
 }
