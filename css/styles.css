@@ -733,10 +733,8 @@ button {
   transition: box-shadow var(--transition-dur-and-func);
 }
 
-.portfolio-cart-container:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.portfolio-cart-container:focus {
+.portfolio-cart-container:hover .overlay,
+.portfolio-cart-container:focus .overlay {
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
