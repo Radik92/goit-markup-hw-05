@@ -151,8 +151,8 @@ a {
 .header-address-nav {
   font-style: normal;
   gap: 40px;
-  margin-right: 40px;
 }
+
 .contact-limk-id {
   font-family: 'Roboto';
   font-style: normal;
@@ -650,7 +650,6 @@ button {
 }
 
 .contact-limk-id {
-  margin-right: 40px;
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -851,7 +850,6 @@ button {
 }
 
 .customer-item:hover {
-  border: 1px solid #404bbf;
 }
 
 /* Modal Window */
